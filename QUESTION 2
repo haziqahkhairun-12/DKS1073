@@ -1,0 +1,12 @@
+Question 2 – Condition Checking (Basic if)
+Scenario:
+A shop offers a discount for customers who spend more than RM100.
+If total purchase is greater than 100, display:
+"You get a discount!"
+
+#answer
+total_purchase = input("Enter total purchase amount (RM): ")
+total = float(total_purchase)
+
+if total > 100:
+    print("you get a discount !!!")
